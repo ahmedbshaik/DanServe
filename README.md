@@ -16,12 +16,12 @@ The development project is divided into multiple stages:
 6. Company registration with tax authorities - working on it.
 7. Office/facility - will begin working from home.
 8. Focus area of DanServe: 
-a. IT support (24X7).
-b. IT Infrastructure Upgrade/ building from scratch.
-c. Hardware/Software procurement.
-d. Web-development and deployment ( Partners welcome).
-e. Ethernet Network cabling.
-f. CCTV camera installation.
+      a. IT support (24X7).
+      b. IT Infrastructure Upgrade/ building from scratch.
+      c. Hardware/Software procurement.
+      d. Web-development and deployment ( Partners welcome).
+      e. Ethernet Network cabling.
+      f. CCTV camera installation.
 
 So so good...
 

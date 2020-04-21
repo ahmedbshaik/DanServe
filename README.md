@@ -23,7 +23,7 @@ The development project is divided into multiple stages:
       e. Ethernet Network cabling.
       f. CCTV camera installation.
 
-So so good...
+So far so good...
 
 Keep you posted on all the updates here.
 

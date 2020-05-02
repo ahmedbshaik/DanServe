@@ -1,291 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta charset="utf-8">
-<title>DanServe - 24X7 IT Helpdesk</title>
-<meta name="description" content="">
-<meta name="Bash" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="css/style.css">
-<link rel="shortcut icon" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DanServe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
-
-    <!-- ***************  Logo and Titlebar Contacts  **************** -->
-    <div id="header">
-        <header class="site_header">
-            <div id="nav_top">
-                <nav class="top_titlebar">
-                    <ul class="lang_options">
-                        <li>Dansk</li>
-                        <li>Svensk</li>
-                        <li>English</li>
+    <header>
+        <!-- +++++++++++++++++++ menu bar +++++++++++++++++++++++++ -->        
+        <nav>
+            <div class="row clearfix">
+                <img class="logo" src="images/danserve_logo.svg" alt="danserve_logo">                               
+                    <ul class="main-nav animated slideInDown" id="check-class">
+                        <li><a href="#">IT Support</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Communication</a></li>
+                        <li><a href="#">Contact</a></li> 
                     </ul>
-                </nav>
+                    <a class="mobile-icon" href="#" onclick="slideshow()"><i class="fa fa-bars"></i></a>            
+            </div>        
+        </nav>
+    </header>
 
+    <main> 
+        <div class="main-content">
+            <h1>IT SUPPORT for SMALL & MEDIUM SCALE BUSINESSES</h1>
+            <h4>Keeps your costs down without compromising on quality and reliability </h4> 
+            <div class="button">
+                <a class="btn btn-consultation" href="#">Get Free Consultation</a>
+                <a class="btn btn-intro" href="#">Who We Are?</a>
             </div>
-            
-        <div class="bottom_titlebar">
-            <div class="left_titlebar">
-                <a class="logo" href="#"> <!--home link need to be added -->
-                <img src="Images/LogoTagline.png" alt="DanServe_Logo">
-                </a>
-            </div>
-
-            <div class="contact_titlebar">
-                <ul>
-                    <li>Sales: 0045-27824004</li> 
-                    <li>Support: 0045-27824004</li>
-                </ul>
-            </div>
-
-            <nav class="right_titlebar">
-                <div class="menu_items">
-                    <ul>
-                        <li>IT Helpdek</li>
-                        <li>Services</li>
-                        <li>Communications</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-            </nav>
         </div>
-
-            <!-- ***************  Sub-menu Navigation Menu  **************** -->
-
-            <!-- ***************  Intro Section  **************** -->
-            <div id="intro">
-                <section>
-                    <h1 class="intro_heading">Best-in-class IT support service for SMEs</h1>
-                    <h2 class="intro_sub_heading">We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.</h2>
-                    <p class="intro_text">
-                      We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                      We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                      We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                      We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                    </p>
-                </section>
-            </div>
-        </header>
-    </div>
-     
-
-    <!-- ***************  Advert free consulation  **************** -->
-    <div id="consultation_tab">
-        <p>
-            Get consultaion for free!
-        </p>
-    </div>
-        
-    
-    <div id="main">
-
-        <!-- ***************  IT helpdesk  **************** -->
-        <section class="it_helpdesk">
-            <section id="full_support">
-                <h2 class="full_support">Full Support no strings attached</h2>
-                    <h3>Optimize IT operations and performance with expert support.</h3>
-                        <p class="sub_text">
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                        </p>
-            </section>
-              
-            <section class="partial_support">
-                <h2 class="partial_support">Partial Support customisable support service</h2>
-                    <h3>Optimize IT operations and performance with expert support.</h3>
-                        <p class="sub_text">
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                        </p>
-            </section>
-              
-            <section class="one_time_support">
-                <h2 class="one_time_support">One Time Support 1st hour on us</h2>
-                    <h3>Optimize IT operations and performance with expert support.</h3>
-                        <p class="sub_text">
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                        </p>
-            </section>
-        </section>
-
-        <!-- ***************  Professional Services  **************** -->
-        <section class="pro_services">            
-                <section id="pro_services">
-                    <h1 class="com">Professional Services</h1>
-                        <h2>We rfefef dgdergr rgrgrg rgrgrgrg rggrrgrg rgrgeg rgrgrg upgrade.</h2>
-                            <p class="sub_text">
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            </p>
-                </section>
-
-                <section id="procurement">
-                    <h2 class="procurement">Hardware and Software Procurement</h2>
-                        <h3>We work with reputed manufacturers and sellers to supply your full range of IT and communications solutions.</h3>
-                            <p class="sub_text">
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            </p>
-                </section>
-              
-                <section class="Consul">
-                    <h2 class="Consul">IT Consulatancy</h2>
-                        <h3>Required a professional opinion from industry experts before you make any big changes? We conduct special process to analyse your requirement and serve you sollution on a specific requirement.</h3>
-                            <p class="sub_text">
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            </p>
-                </section>
-              
-                <section class="web_dev">
-                    <h2 class="web_dev">Web-Deveopment</h2>
-                        <h3>Optimize IT operations and performance with expert support.</h3>
-                            <p class="sub_text">
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            </p>
-                </section>
-
-                <section class="cabling">
-                    <h2 class="cabling">Ethernet Network Cabling</h2>
-                        <h3>Optimize IT operations and performance with expert support.</h3>
-                            <p class="sub_text">
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            </p>
-                </section>
-
-                <section class="cctv">
-                    <h2 class="cctv">CCTV Camera installation</h2>
-                        <h3>Optimize IT operations and performance with expert support.</h3>
-                            <p class="sub_text">
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                                We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            </p>
-                </section>    
-        </section>
-        
-        <!-- ***************  Communications  **************** -->
-        <section class="com">
-            <section id="com">
-                <h1 class="com">Communications</h1>
-                    <h2>We provide tailored solutions for your businesses from scratch or provide as upgrade.</h2>
-                        <p class="sub_text">
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                            We deliver high-quality, high-value products, consulting, and support services in customer friendly packages.
-                        </p>
-            </section>
-
-            <section class="cvty_int">
-                <h2 class="cvty_int">Connectivity and Internet</h2>
-                    <h3>We work with service provders for faster and reliable connectivity with a range of business-grade internet and connectivity solutions.</h3>
-                        <p class="sub_text">
-                            We work with service provders for faster and reliable connectivity with a range of business-grade internet and connectivity solutions.
-                        </p>
-            </section> 
-
-            <section class="phone_sys">
-                <h2 class="phone_sys">Phone Systems</h2>
-                    <h3>We procure, install and configure VoIP and unified communication solutions.</h3>
-                        <p class="sub_text">
-                            We procure, install and configure VoIP and unified communication solutions. We procure, install and configure VoIP and unified communication solutions.
-                        </p>
-            </section> 
-
-            <section class="mobo">
-                <h2 class="mobo">Mobile Phones</h2>
-                    <h3>We work with mobile network companies to get cost-effective contracts and plans for your business mobiles on all major networks.</h3>
-                        <p class="sub_text">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-                        </p>
-            </section> 
-
-            <section class="pho_ser">
-                <h2 class="pho_ser">Phone Services</h2>
-                    <h3>We build telephone network within your premises for both analoue and digital/virtual phones with or without hardware instruments.</h3>
-                        <p class="sub_text">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-                        </p>
-            </section>            
-        </section>
-    </div>
-    
-
-    <!-- ***************  Contact Us  **************** -->
-    <div id="contact">
-        <section class="contact">
-            <ul>
-                <li>Sales: 0045-27824004</li>
-                <li>Support: 0045-27824004</li>
-                <li>Web-development: 0045-27820000</li>
-                <li>
-                    <a href="web_form">Write to us</a>    
-                </li>
-            </ul>        
-    </div>
-    
-
-    <!-- ***************  About us  **************** -->
-    <div id="about">
-        <section class="about">
-            <ul>
-                <li>
-                    <h2 class="about">Our Journey</h2>
-                    <p>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus    
-                    </p>
-
-                </li>
-
-                <li>
-                    <h2 class="focus_area">Focus Area</h2>
-                    <p>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus    
-                    </p>              
-                </li>
-
-                <li>       
-                    <h2 class="clients">Cliets</h2>
-                    <p>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus    
-                    </p> 
-                </li>
-
-                <li>
-                    <a href="web_form">Write to us</a>    
-                </li>
-            </ul> 
-        </section>       
-    </div>
-    
-    <!-- ***************  xxxx  **************** -->
-    <div id="footer">
-        <footer>
-            <!-- footer content goes in here -->
-        </footer>
-    </div>
-
-
+    </main>
+    <script> /*type="text/javascript*/"
+        function slideshow() 
+        {
+            var x = document.getElementById('check-class');
+            if(x.style.display === "none"){
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+        }
+    </script>
 </body>
 </html>
